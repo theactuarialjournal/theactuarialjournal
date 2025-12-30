@@ -1,13 +1,12 @@
 title: The Actuarial Journal
 description: Clear, practical explanations of actuarial science, exams, and careers.
-theme: minimal-mistakes-jekyll
 markdown: kramdown
 
-minimal_mistakes_skin: "default"
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 author:
   name: The Actuarial Journal
-  bio: A knowledge hub simplifying actuarial concepts for students and professionals.
-
-plugins:
-  - jekyll-seo-tag
+  bio: Simplifying actuarial concepts for students and professionals.
