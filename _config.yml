@@ -1,12 +1,41 @@
+# Site settings
 title: The Actuarial Journal
 description: Clear, practical explanations of actuarial science, exams, and careers.
-markdown: kramdown
+baseurl: ""  # leave blank for user.github.io sites
+url: "https://theactuarialjournal.github.io/"  # replace 'yourusername' with your GitHub username
 
+# Theme
 remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Markdown
+markdown: kramdown
+
+# Author info
 author:
   name: The Actuarial Journal
-  bio: Simplifying actuarial concepts for students and professionals.
+  bio: A knowledge hub simplifying actuarial concepts for students and professionals.
+
+# Navigation (top menu)
+header_pages:
+  - index.md
+  - about.md
+  - podcast.md
+  - exams/cm1.md
+  - concepts/insurance-basics.md
+  - career/tools.md
+
+# Optional settings
+permalink: pretty
+paginate: 5
+paginate_path: "/page:num/"
+
+# Footer note
+footer: "© 2026 The Actuarial Journal. All content represents personal learning; feedback and corrections are welcome."
+
+# Jekyll SEO
+title_separator: "|"
