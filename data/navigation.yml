@@ -1,0 +1,18 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "Exams"
+    url: /exams/
+
+  - title: "Core Concepts"
+    url: /concepts/
+
+  - title: "Career"
+    url: /career/
+
+  - title: "Podcast"
+    url: /podcast/
