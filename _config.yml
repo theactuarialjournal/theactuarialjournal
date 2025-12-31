@@ -12,5 +12,4 @@ plugins:
 
 permalink: pretty
 
-# Custom site variables (used in layout)
-site_footer: "© 2026 The Actuarial Journal. All content represents personal learning; feedback and corrections are welcome."
+site_footer: "© 2026 The Actuarial Journal. Personal learning journal. Feedback and corrections are welcome."
