@@ -7,22 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   {% seo %}
-  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
 <body>
 
-<header class="site-header">
-  <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+<header>
+  <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
   <p>{{ site.description }}</p>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+  </nav>
 </header>
 
-<main class="content">
+<main>
   {{ content }}
 </main>
 
-<footer class="site-footer">
-  <p>{{ site.site_footer }}</p>
+<footer>
+  <p>{{ site.footer }}</p>
 </footer>
 
 </body>

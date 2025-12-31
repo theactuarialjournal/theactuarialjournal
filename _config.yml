@@ -1,15 +1,14 @@
 title: The Actuarial Journal
 description: A personal actuarial knowledge hub for students and professionals.
-
 url: "https://theactuarialjournal.github.io"
 baseurl: ""
 
 markdown: kramdown
 
+permalink: /:year/:month/:day/:title/
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-permalink: pretty
-
-site_footer: "© 2026 The Actuarial Journal. Personal learning journal. Feedback and corrections are welcome."
+footer: "© 2026 The Actuarial Journal. All content reflects personal learning. Feedback and corrections are welcome."
